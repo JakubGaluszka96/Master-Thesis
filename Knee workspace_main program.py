@@ -1,22 +1,14 @@
+#Import potrzebnych bibliotek
 from mayavi import mlab
 from tvtk.api import tvtk
 from UtilityLib import compute_rot_matrix, transform_verts_general, mesh_reader
-from parameter_class import Parameter
 from traits.api import HasTraits, Range, Instance, on_trait_change
 from traitsui.api import View, Item, Group, HGroup
-
 from mayavi.core.api import PipelineBase
 from mayavi.core.ui.api import MayaviScene, SceneEditor, MlabSceneModel
-#Import potrzebnych bibliotek
 import numpy as np                           #operacje na macierzach i wektorach (mnozenie, dodawanie, itd.)
-import matplotlib.pyplot as plt              #biblioteka wykresow
 import math
 from math import sin, cos, sqrt              #funkcja sin, cos i sqrt
-#from scipy.misc import imread               #do wczytania obrazu kosci
-import matplotlib.cbook as cbook             #do wczytania obrazu kosci
-from mpl_toolkits.mplot3d import Axes3D
-from collections import OrderedDict
-
 import vtk
 output=vtk.vtkFileOutputWindow()
 output.SetFileName("log.txt")
