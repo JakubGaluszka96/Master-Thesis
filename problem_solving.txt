@@ -1,0 +1,6 @@
+Program were originally created on Windows. 
+Here are some commoand whicch helped me to run this on ubuntu:
+sudo apt install python3-pip ///for installing pip
+pip install numpy
+pip install mayavi
+sudo apt-get install --reinstall libxcb-xinerama0
