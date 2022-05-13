@@ -20,6 +20,7 @@ a = np.array([[-0.01511, -0.00879,-0.0012],      #wiezadlo 1 [X,Y,Z]
               [-0.04344, 0.01126, -0.00638]])     #wiezadlo n [X,Y,Z]
                                     #...
                                     #...
+                                    ##Mozna uzyc dowolnej ilosci wiezadel
 
 "Polozenie przyczepow wiezadel na kosci piszczelowej w jej ukladzie wspolrzednych"
 b_t = np.array([[0.0001, -0.02599, -0.00427],      #wiezadlo 1 [X,Y,Z]
