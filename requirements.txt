@@ -22,5 +22,5 @@ six==1.16.0
 traits==6.4.3
 traitsui==8.0.0
 typing-extensions==4.8.0
-vtk==9.3.0
+vtk==9.2.2
 zipp==3.17.0
