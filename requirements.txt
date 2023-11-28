@@ -16,11 +16,13 @@ Pillow==10.1.0
 pyface==8.0.0
 pygments==2.17.2
 pyparsing==3.1.1
+PySide2==5.15.2.1
 python-dateutil==2.8.2
 python-utils==3.8.1
+shiboken2==5.15.2.1
 six==1.16.0
 traits==6.4.3
-traitsui==8.0.0
+traitsui==7.4.3
 typing-extensions==4.8.0
 vtk==9.2.2
 zipp==3.17.0
